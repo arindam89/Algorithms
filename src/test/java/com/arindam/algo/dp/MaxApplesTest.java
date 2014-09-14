@@ -1,7 +1,8 @@
 package com.arindam.algo.dp;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
+
+import static org.junit.Assert.assertEquals;
 
 /**
  * Created by arpaul on 9/14/14.
@@ -18,13 +19,14 @@ public class MaxApplesTest {
                 {1, 2, 1, 2, 9}
         };
         /*
-          5 1 3 4 2
+          5 1 3 4` 2
           0 5 2 3 1
           1 3 4 8 2
           1 2 1 2 9
+          Correct Answer is 37
          */
 
-        System.out.println(client.findMaxFruit(input, 3,4));
+        assertEquals(37, client.findMaxFruit(input, 3, 4));
 
     }
 

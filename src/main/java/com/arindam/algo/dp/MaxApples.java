@@ -36,7 +36,8 @@ public class MaxApples {
                     MaxSoFar[row][col] = MaxSoFar[row-1][col] + input[row][col];
                 }
                 else {
-                    MaxSoFar[row][col] = Math.max(MaxSoFar[row][col-1],MaxSoFar[row-1][col]) + input[row][col];
+                    MaxSoFar[row][col] =
+                            Math.max(MaxSoFar[row][col-1],MaxSoFar[row-1][col]) + input[row][col];
                 }
             }
         }
