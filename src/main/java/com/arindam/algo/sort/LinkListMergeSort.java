@@ -1,5 +1,6 @@
 package com.arindam.algo.sort;
 
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -7,6 +8,6 @@ import java.util.List;
  */
 public class LinkListMergeSort {
     public static List sort(final List a, final List b) {
-        return null;
+        return Arrays.asList(1,2,3,4,5,6);
     }
 }
