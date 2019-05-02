@@ -25,5 +25,6 @@ public class StackTest {
         Assert.assertFalse("Stack should not be empty!",stack.empty());
         Assert.assertThat("Pop should work", stack.pop(), is("World"));
         Assert.assertThat("Pop should work", stack.pop(), is("Hello"));
+        Assert.assertTrue("Now the stack is empty", stack.empty());
     }
 }
